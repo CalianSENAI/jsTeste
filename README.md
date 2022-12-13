@@ -1,2 +1,2 @@
-# jsTeste
+# starter web
 teste in js
