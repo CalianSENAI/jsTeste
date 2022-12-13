@@ -7,6 +7,7 @@
     
     <link rel="icon" type="imagem/png" href="RapidSoft-logo.png">
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>RapidSoft</title>
 </head>
@@ -21,7 +22,7 @@
     <div class="rapid">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d223.1942971465276!2d-49.08098749265974!3d-26.484442999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de95021af97b61%3A0xc039f098c2e3b884!2sMARKET%20PLACE!5e0!3m2!1spt-BR!2sbr!4v1669753832654!5m2!1spt-BR!2sbr" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="locrapid">
+    <div class="locrapid" >
         <p>Localicação Rapidsoft</p>
         <div>
             <img class="logorapid" src="RapidSoft-logo.png" alt="Logo Empresa">
@@ -30,7 +31,7 @@
     <div>
         <h2>Tag Img</h2>
         <a href="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/07/Foto-jw-capa.png">
-            <div class="testeimg">
+            <div class="testeimg" data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
                 <img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2022/07/Foto-jw-capa.png" alt="Imagem aleatória" title="Imagem aleatória" width="400px">
             </div>
         </a>
@@ -271,5 +272,11 @@
         </table>
     </div>
     <script src="./desafios.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 </html>
